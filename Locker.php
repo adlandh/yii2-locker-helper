@@ -29,7 +29,7 @@ class Locker
 
         // If file exists than someone killed the process
         if ($aborted && (YII_DEBUG or $debug)) {
-            YII::error(sprintf("The previous process was killed %s", date('c', $aborted)),'lock');
+            YII::error(sprintf("The previous process was killed %s", date('c', $aborted)),'locker-lock');
         }
 
         // Removing blocking on the end of the process
