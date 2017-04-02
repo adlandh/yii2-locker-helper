@@ -1,0 +1,23 @@
+{
+    "name": "adlandh/yii2-locker-helper",
+    "description": "Simple file locker for yii2",
+    "keywords": ["yii2", "process", "lock"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/adlandh/yii2-locker-helper/issues",
+        "source": "https://github.com/adlandh/yii2-locker-helper"
+    },
+    "authors": [
+        {
+            "name": "Adlan DH",
+            "email": "adlandh@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "yii\\helpers\\": "" }
+    }
+}
